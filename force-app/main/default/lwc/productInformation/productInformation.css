@@ -1,0 +1,13 @@
+.title{
+    font-size: 22px;
+    font-weight: 800;
+}
+.product__details td{
+    width: 20%;
+}
+.product__details--label{
+    font-weight: 600;
+}
+.product__details,.product__details--image > img{
+    margin-top: 3%;
+}

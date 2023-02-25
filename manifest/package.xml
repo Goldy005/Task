@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>CustomerInformationManager</members>
+		<members>CustomerInformationManagerTest</members>
+		<members>ConstantsObject</members>
+		<members>CurrencyUtils</members>
+		<members>PriceService</members>
+		<members>ProductInformationController</members>
+		<members>ProductInformationControllerTest</members>
+		<members>TestDataFactory</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>Contact.External_Id__c</members>
+		<members>Contact.Home_Country__c</members>
+		<members>Contact.Product__c</members>
+		<members>Country_Currency_Mapping__mdt.Country__c</members>
+		<members>Country_Currency_Mapping__mdt.Currency_Iso_Code__c</members>
+		<members>Product2.ATM_Fee__c</members>
+		<members>Product2.Image_Url__c</members>
+		<members>Product2.Image__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<members>Contact-Contact Layout</members>
+		<members>Country_Currency_Mapping__mdt-Country Currency Mapping Layout</members>
+		<members>Product2-Product Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>productInformation</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<version>55.0</version>
+</Package>

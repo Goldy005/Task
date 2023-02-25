@@ -1,0 +1,30 @@
+<template>
+    <h1 class="title">Product Information</h1>
+    <div class="product">
+        <template if:true={product}>
+            <table class="product__details">
+                <tr>
+                    <td class="product__details--label">Product Name:</td>
+                    <td class="product__details--value">{product.name}</td>
+                </tr>
+                <tr>
+                    <td class="product__details--label">ATM Fee in other currencies:</td>
+                    <td class="product__details--value">{product.atmFee}</td>
+                </tr>
+                <tr>
+                    <td class="product__details--label">Cost per Calendar Month:</td>
+                    <td class="product__details--value">{product.monthlyCost}</td>
+                </tr>
+                <tr>
+                    <td class="product__details--label">Card Replacement Cost:</td>
+                    <td class="product__details--value">{product.cardReplacementCost}</td>
+                </tr>
+                <tr>
+                    <td class="product__details--image">
+                        <img src={product.imageUrl}/>
+                    </td>
+                </tr>
+            </table>
+        </template>
+    </div>
+</template>
